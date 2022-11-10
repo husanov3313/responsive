@@ -1,0 +1,131 @@
+#reklama {
+  margin-top: 300px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(59, 46, 46);
+  color: white;
+  padding-top: 120px;
+  text-align: center;
+  height: 550px;
+  position: relative;
+
+  .reklama1 {
+    width: 540px;
+    margin: 0 auto;
+
+    h2 {
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 48px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      margin-top: 32px;
+    }
+  }
+  .reklama {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    top: 350px;
+    left: 60px;
+    right: 60px;
+    .reklama-div {
+      min-width: 350px;
+      background-color: grey;
+      padding: 72px 48px 48px 48px;
+      h3 {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 56px;
+        margin-bottom: 24px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  #reklama {
+    margin-top: 900px;
+    height: 720px;
+    .reklama {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 30px;
+      position: absolute;
+      top: 350px;
+      left: 70px;
+      .reklama-div {
+        max-width: 573px;
+        display: flex;
+        gap: 55px;
+        padding: 41px 48px 48px 70px;
+        h3 {
+          margin-top: 21px;
+          margin-bottom: 24px;
+        }
+        .div-box {
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  #reklama {
+    margin-top: 1500px;
+    height: 800px;
+    width: 375px;
+    .reklama1 {
+      width: 300px;
+      margin: 0 auto;
+
+      h2 {
+        font-weight: 900;
+        font-size: 28px;
+
+        line-height: 48px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+        margin-top: 32px;
+      }
+    }
+    .reklama {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 30px;
+      position: absolute;
+      top: 350px;
+      left: 12px;
+      width: 300px;
+
+      .reklama-div {
+        max-width: 270px;
+        display: block;
+        gap: 55px;
+        padding: 10px 20px 10px 20px;
+        h3 {
+          margin-top: 10px;
+          margin-bottom: 15px;
+        }
+        .div-box {
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+}

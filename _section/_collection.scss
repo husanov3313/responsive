@@ -1,0 +1,226 @@
+#collection{
+    position: relative;
+    padding-top: 40px;
+    margin-bottom: 300px;
+}
+.img{
+    margin-left: 20px;
+}
+@media only screen and (max-width:768px) {
+    .img{
+        width: 689px;
+    }
+  }
+    @media only screen and (max-width:375px) {
+      .img{
+          width: 340px;
+      }
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: absolute;
+  top: 170px;
+  div{
+    width: 260px;
+    text-align: center;
+
+  }
+  h3 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333d4b;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333d4b;
+  }
+}
+@media only screen and (max-width:768px){
+  .cards {
+    display: block;
+    .cards-box{
+      display: flex;
+      gap: 36px;
+      width: 600px;
+      margin: 0 auto;
+      position: absolute;
+      top: -50px;
+      
+        div{
+          width: 282px;
+          margin: 0 auto;
+          h3 {
+            margin-top: 15px;
+            margin-bottom: 24px;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #333d4b;
+          }
+        
+
+        }
+      
+    }
+    .cards-box2{
+      display: flex;
+      gap: 36px;
+      width: 600px;
+      margin: 0 auto;
+      position: absolute;
+      top: 150px;
+      
+        div{
+          width: 282px;
+          margin: 0 auto;
+          h3 {
+            margin-top: 15px;
+            margin-bottom: 24px;
+           
+          }
+         
+        }
+        }
+        .cards-box3{
+          display: flex;
+          gap: 36px;
+          width: 600px;
+          margin: 0 auto;
+          position: absolute;
+          top: 350px;
+          
+            div{
+              width: 282px;
+              margin: 0 auto;
+              h3 {
+                margin-top: 15px;
+                margin-bottom: 24px;
+               
+              }
+             
+            }
+            }
+            .cards-box4{
+              display: flex;
+              gap: 36px;
+              width: 600px;
+              margin: 0 auto;
+              position: absolute;
+              top: 550px;
+              
+                div{
+                  width: 282px;
+                  margin: 0 auto;
+                  h3 {
+                    margin-top: 15px;
+                    margin-bottom: 24px;
+                   
+                  }
+                 
+                }
+                }
+          
+      
+  }
+}
+@media only screen and (max-width:375px){
+  .cards {
+    display: block;
+    .cards-box{
+      display: block;
+      gap: 36px;
+      width: 600px;
+      margin: 0 auto;
+      position: absolute;
+      top: -80px;
+      left: -100px;
+      
+        div{
+          width: 282px;
+          margin: 0 auto;
+          h3 {
+            margin-top: 15px;
+            margin-bottom: 24px;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #333d4b;
+          }
+        
+
+        }
+      
+    }
+    .cards-box2{
+      display: block;
+      gap: 36px;
+      width: 600px;
+      margin: 0 auto;
+      position: absolute;
+      top: 250px;
+      left: -100px;
+
+        div{
+          width: 282px;
+          margin: 0 auto;
+          h3 {
+            margin-top: 15px;
+            margin-bottom: 24px;
+           
+          }
+         
+        }
+        }
+        .cards-box3{
+          display: block;
+          gap: 36px;
+          width: 600px;
+          margin: 0 auto;
+          position: absolute;
+          top: 650px;
+          left: -100px;
+
+            div{
+              width: 282px;
+              margin: 0 auto;
+              h3 {
+                margin-top: 15px;
+                margin-bottom: 24px;
+               
+              }
+             
+            }
+            }
+            .cards-box4{
+              display: block;
+              gap: 36px;
+              width: 600px;
+              margin: 0 auto;
+              position: absolute;
+              top: 1000px;
+              left: -100px;
+
+                div{
+                  width: 282px;
+                  margin: 0 auto;
+                  h3 {
+                    margin-top: 15px;
+                    margin-bottom: 24px;
+                   
+                  }
+                 
+                }
+                }
+          
+      
+  }
+}

@@ -1,0 +1,128 @@
+#xizmat {
+  margin-top: 300px;
+ 
+  h3 {
+    color: #83888f;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .images {
+    display: flex;
+    justify-content: left;
+    gap: 349px;
+    margin-top: 80px;
+    position: relative;
+    
+  }
+  .path {
+    height: 4px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: -1;
+  }
+  span {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fdd6ba;
+  }
+  .raqamli {
+    display: flex;
+    gap: 95px;
+    margin-top: 67px;
+    margin-bottom: 67px;
+    
+    
+    div {
+      width: 285px;
+      
+      h2 {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333d4b;
+        margin: 38px 0 42px 0 ;
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333d4b;
+      }
+    }
+  }
+}
+@media only screen and (max-width:768px) {
+  #xizmat{
+    margin-top: 600px;
+    .path {
+      height: 3px;
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      z-index: -1;
+      .images{
+        gap: 200px;
+      }
+  }
+}
+}
+@media only screen and (max-width:375px) {
+  #xizmat{
+    margin-top: 600px;
+    span {
+      margin-top: 50px;
+    }
+    h3{
+      margin-left: 50px;
+      
+    }
+    .center{
+      width: 270px;
+      margin: 0 auto;
+      .btn{
+        margin-left: 50px;
+      }
+    }
+    .raqamli {
+      display: block;
+      gap: 95px;
+      margin-top: 67px;
+      margin-bottom: 67px;
+      text-align: center;
+      
+      
+      div {
+        width: 285px;
+        
+        h2 {
+          font-weight: 900;
+          font-size: 28px;
+          line-height: 32px;
+        }
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          color: #333d4b;
+          margin-bottom: 50px;
+        }
+      }
+    }
+    .images {
+      display: flex;
+      justify-content: left;
+      gap: 105px;
+      margin-top: 80px;
+      position: relative;
+      
+    }
+    .path {
+      height: 1px;
+    
+
+  }
+}
+}
